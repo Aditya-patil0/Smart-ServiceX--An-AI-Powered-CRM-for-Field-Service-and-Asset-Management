@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomObject xmlns='http://soap.sforce.com/2006/04/metadata'>
+    <label>Service Request</label>
+    <pluralLabel>Service Requests</pluralLabel>
+    <nameField>
+        <type>AutoNumber</type>
+        <label>Service Request Number</label>
+    </nameField>
+    <fields>
+        <fullName>Status__c</fullName>
+        <type>Picklist</type>
+        <label>Status</label>
+        <picklist>
+            <picklistValues><fullName>Open</fullName></picklistValues>
+            <picklistValues><fullName>In Progress</fullName></picklistValues>
+            <picklistValues><fullName>Closed</fullName></picklistValues>
+        </picklist>
+    </fields>
+</CustomObject>
